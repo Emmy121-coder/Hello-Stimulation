@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Device Locked</title>
-  <style>
-    body {
-      background-color: #000;
-      color: red;
-      text-align: center;
-      padding-top: 100px;
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      font-size: 48px;
-    }
-    p {
-      font-size: 24px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransomware Simulation</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🚫 Device Locked!!!</h1>
-  <p>Your files have been encrypted.</p>
-  <p>*************Ciao*************</p>
+
+<div class="lock-screen">
+    <div class="message">
+        <h1>🚨 Your device is locked!!! 🚨</h1>
+        <button onclick="unlockDevice()">Unlock Now</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
