@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: red;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Arial Black', sans-serif;
+}
+
+#lockscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: red;
+}
+
+*p {
+    font-size: 1.5em;
+    color: red;
+    
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
